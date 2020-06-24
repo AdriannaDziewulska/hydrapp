@@ -1,6 +1,6 @@
 @import "_normalize";
 @import "_variables";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 html {
   box-sizing: border-box;
@@ -11,6 +11,62 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  background: #3767AD;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.header{
+  font-size: 72px;
+  padding: 0;
+  margin-bottom: 48px;
+
+}
+.main{
+
+}
+
+.glass{
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 0
+}
+
+.button{
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  height: 47px;
+  &__add{
+    background: #ffffff;
+    color: black;
+    font-size: 18px;
+    
+  }
+  &__delete{
+    color: #F5E5E7;
+    background: #3766ad00;
+    font-size: 14px;
+  }
+}
+
+.number{
+  position: absolute;
+left: 38.13%;
+right: 38.4%;
+top: 34.04%;
+bottom: 53.89%;
+font-size: 112px;
+}
+
+.p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: space-between;
 }

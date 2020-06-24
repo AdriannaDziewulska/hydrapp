@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
+    <title>HydrApp</title>
     <meta name="description" content="Description" />
 
     <!-- Title -->
@@ -32,8 +32,14 @@
 
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
-    <h1>Hello world - with simple PWA support!</h1>
+  <body class="main">
+    <h1 class="header">HydrApp</h1>
+    <img class="glass" src="assets/pwa/icons/icon-512x512.png" alt="Ikona szklanki wody.">
+    <div class="number">0</div>
+    <p class="p">
+      <button class="button button__add button__add--js">Dodaj szklankę</button>
+      <button class="button button__delete button__delete--js">Usuń szklankę</button>
+    </p>
 
     <script src="js/main.js"></script>
   </body>
